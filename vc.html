@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    
+    <title>Hemant & Hemant</title><!--background position=(horizontal, vertical) -->
+ <script>
+
+ </script>
+
+
+ <style>
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+body {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('th.jpg');
+    background-position: -2100px -200px;
+}
+
+.heading {
+	text-align: center;
+  position: left;
+}
+
+/* Dropdown Button */
+.pos{
+	text-align: left;
+  position: left;
+}
+
+
+.dropbtn {
+  background-color: #000000;
+  color: white;
+  padding: 17px;
+  font-size: 16px;
+  border: none;
+  object-position: center;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #FF0000; color: #000000}
+
+.aq{
+  text-align: left;
+}
+
+.over{
+  text-align: left;
+}
+.imp{
+  width: 100%;
+}
+
+.a4{
+	 width: 100%;
+}
+ </style>
+ 
+ </head>   
+
+<body>
+    
+<div class="pos"><div class="dropdown">
+  <a href="isuzu.html"><button class="dropbtn">Back</button></a>
+  </div></div>
+<div class="heading"><h1>Isuzu D-Max V-Cross</h1></div>
+<br><br><br><br>
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 5</div>
+  <img src="C:\Users\hp\Desktop\ty\vc_1.jpg" style="width:100%">
+  <div class="text">Caption Text</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 5</div>
+  <img src="C:\Users\hp\Desktop\ty\vc_2.jpg" style="width:100%">
+  <div class="text">Caption Two</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 5</div>
+  <img src="C:\Users\hp\Desktop\ty\vc-1.jpg" style="width:100%">
+  <div class="text">Caption Three</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">4 / 5</div>
+  <img src="C:\Users\hp\Desktop\ty\vc-2.jpg" style="width:100%">
+  <div class="text">Caption Four</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">5 / 5</div>
+  <img src="C:\Users\hp\Desktop\ty\vc-3.jpg" style="width:100%">
+  <div class="text">Caption Five</div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+  <span class="dot" onclick="currentSlide(4)"></span> 
+  <span class="dot" onclick="currentSlide(5)"></span> 
+</div>
+<table align="center" border="3" width="70%" height="50%" bgcolor="#F0F8FF">
+  <tr valign="middle" align="center">
+    <td><h3>Diesel<br><h6>Fuel Type</h6></h3></td>
+    <td><h3>12.4 Kmpl<br><h6>Mileage</h6></h3></td>
+    <td><h3>2499 CC<br><h6>Engine CC</h6></h3></td>
+    <td><h3>Automatic<br><h6>Tansmission</h6></h3></td>
+    <td><h3>151.89 bhp<br><h6>Power</h6></h3></td>
+    <td><h3>189 NM<br><h6>Torque</h6></h3></td>
+  </tr>
+</table>
+    <br><h1 class="aq"><u>About Isuzu D-Max V-Cross</u></h1>
+    <h3>Isuzu has introduced a limited edition of the V-Cross with an automatic transmission.
+
+Isuzu D-Max V-Cross Variants and Prices: The V-Cross is available in three variants now: Standard and High, which are priced at Rs 15.51 lakh and 17.03 lakh (ex-showroom Mumbai), respectively, along with the newly launched limited edition named the Z-Prestige. It is priced at Rs 19.99 lakh (ex-showroom Delhi).
+
+Isuzu D-Max V-Cross Engine: The V-Cross is powered by a 2.5-litre diesel engine that makes 134PS of power and 320Nm of peak torque while mated to a 5-speed manual gearbox whereas the Z-Prestige is offered with a 1.9-litre diesel engine which puts out 150PS of power and 350Nm of torque. What’s more, you also get a first-in-segment 6-speed automatic transmission option in the limited edition version.
+
+Isuzu D-Max V-Cross Features: The V-Cross is equipped with dual front airbags, ABS with EBD and brake assist as well as ISOFIX child seat anchors as standard. It also gets traction control and electronic stability control, but they are limited to the High variant. Other features on offer include projector headlamps with LED DRLs, cruise control, six-way electrically adjustable driver seat, auto climate control, electrically adjustable and foldable ORVMs and reverse parking camera. 
+
+The Z-prestige variant flaunts a two-tone Brown-Grey combination perforated leather seats, live-surround speakers on the roof, six airbags and a Brake-Override System (BOS).The dual-cockpit design is further enhanced by the new instrument cluster housing a new 3D Design Electroluminescent Meter and Gear Shift Indicators.
+
+Isuzu D-Max V-Cross Rivals: The V-Cross doesn’t have any natural rivals in the market.
+
+</h3>
+    <br><br>
+    <h1 class="over"><u>Isuzu D-Max V-Cross OverView</u></h1>
+    <h3>The V-Cross is the only adventure utility vehicle available in India or at least that's how Isuzu wants to market it. Reasonably so, as lifestyle pick-up trucks still don't have a demand back here. However, this V-Cross has the right potential to create this demand with its mean road presence, go-anywhere capability while providing many utilitarian benefits.
+</h3>
+     <br><br>
+      <!--<h1 class="over"><u>Personal OverView</u></h1>
+    <h3><h2>ADVANTAGES</h2><ul>
+      <li>
+       Premium interior with great fit and finish quality.
+      </li>
+      <li>Long list of features – LED headlights and tail lights, dynamic turn indicators, Audi Multi-Media Interface, panoramic sunroof etc.
+</li><li>Both engines are fuel-efficient and offer adequate performance.
+</li><li>Classy, understated design and rock solid build quality. 
+</li></ul></h3>
+
+ <h3><h2>DIS-ADVANTAGES</h2><ul>
+      <li>
+      Cabin space, while better than its rival, the Mercedes CLA’s, is quite limited for the price.
+      </li>
+      <li>No paddle-shifters offered.
+
+</li><li>Dummy buttons on centre console and passenger doors look ungainly.
+
+</li></ul></h3>
+--><h2><u>Personal OverView</u></h2>
+<table align="center" border="3" width="70%" height="50%" bgcolor="#F0F8FF">
+  <tr valign="middle" align="center">
+    <td> <h3><h2>ADVANTAGES</h2><ul>
+   <li>Truly imposing and massive road presence </li>
+   <li>A niche product which also has off-roading prowess </li>
+   <li>Huge and practical loading bay.</li>
+</ul></h3></td>
+    <td><h3><h2>DIS-ADVANTAGES</h2><ul>
+   <li>Could feel utilitarian to some</li>
+<li>Sheer length causes problems for city use </li>
+<li>Huge turning radius isn’t idle for maneuvering .</li>
+</ul></h3></td>
+  </tr>
+</table>
+<br><br><img class ="imp" src="vc_2.jpg"><br><br>
+<h2><u>Variants</u></h2>
+<table align="center" border="3" width="70%" height="50%" bgcolor="#F0F8FF">
+  <tr valign="middle" align="center">
+    <td> <h3>VARIANT</h3> </td>
+    <td><h3>EX-SHOWROOM PRICE</h3></td>
+  </tr>
+
+  <tr valign="middle" align="center">
+    <td>      
+     <h3>Standard</h3>
+<h6>2499 cc, Diesel, Manual</h6>
+     </td>
+     <td> 
+      	₹ 16.50 Lakh
+     </td>
+   </tr>
+
+    <tr valign="middle" align="center">
+    <td>      
+     <h3>High (Z)</h3>
+<h6>2499 cc, Diesel, Manual</h6>
+     </td>
+     <td> 
+        ₹ 18.02 Lakh
+     </td>
+   </tr>
+
+    <tr valign="middle" align="center">
+    <td>      
+     <h3>Z Prestige</h3>
+<h6>1898 cc, Diesel, Automatic</h6>
+     </td>
+     <td> 
+        ₹ 19.99 Lakh
+     </td>
+   </tr>
+
+</table>
+<br><br>
+<h3>For More Details ....<a href="https://www.carwale.com/isuzu-cars/d-max-v-cross/"><h5>CLICK HERE</h5></a></h3>
+
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+</body>
+
+</html>
