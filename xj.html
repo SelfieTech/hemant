@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    
+    <title>Hemant & Hemant</title><!--background position=(horizontal, vertical) -->
+ <script>
+
+ </script>
+
+
+ <style>
+body {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('j.png');
+    background-position: -2100px -200px;
+}
+
+.heading {
+	text-align: center;
+  position: left;
+}
+
+/* Dropdown Button */
+.pos{
+	text-align: left;
+  position: left;
+}
+
+
+.dropbtn {
+  background-color: #000000;
+  color: white;
+  padding: 17px;
+  font-size: 16px;
+  border: none;
+  object-position: center;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #FF0000; color: #000000}
+
+.aq{
+  text-align: left;
+}
+
+.over{
+  text-align: left;
+}
+.imp{
+  width: 100%;
+}
+
+.a4{
+	 width: 100%;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+ </style>
+ 
+ </head>   
+
+<body>
+    
+<div class="pos"><div class="dropdown">
+  <a href="jaguar.html"><button class="dropbtn">Back</button></a>
+  </div></div>
+<div class="heading"><h1>Jaguar XJ</h1></div>
+<br><br><br><br>
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 5</div>
+  <img src="C:\Users\hp\Desktop\ty\xj_1.webp" style="width:100%">
+  <div class="text">Caption Text</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 5</div>
+  <img src="C:\Users\hp\Desktop\ty\xj_2.webp" style="width:100%">
+  <div class="text">Caption Two</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 5</div>
+  <img src="C:\Users\hp\Desktop\ty\xj-1.jpg" style="width:100%">
+  <div class="text">Caption Three</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">4 / 5</div>
+  <img src="C:\Users\hp\Desktop\ty\xj-2.jpg" style="width:100%">
+  <div class="text">Caption Four</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">5 / 5</div>
+  <img src="C:\Users\hp\Desktop\ty\xj-3.jpg" style="width:100%">
+  <div class="text">Caption Five</div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+  <span class="dot" onclick="currentSlide(4)"></span> 
+  <span class="dot" onclick="currentSlide(5)"></span> 
+</div>
+<table align="center" border="3" width="70%" height="50%" bgcolor="#F0F8FF">
+  <tr valign="middle" align="center">
+    <td><h3>Petrol & Dtesel<br><h6>Fuel Type</h6></h3></td>
+    <td><h3>14.3 Kmpl<br><h6>Mileage</h6></h3></td>
+    <td><h3>2993 CC<br><h6>Engine CC</h6></h3></td>
+    <td><h3>Automatic<br><h6>Tansmission</h6></h3></td>
+    <td><h3>301 bhp<br><h6>Power</h6></h3></td>
+    <td><h3>689 NM<br><h6>Torque</h6></h3></td>
+  </tr>
+</table>
+    <br><h1 class="aq"><u>About Jaguar XJ</u></h1>
+    <h3>There is a lot to like about the Jaguar XJ L. It looks unique and is the full-fat British luxury sedan amongst the German triad. Inside the extravagant cabin, the front seat comfort is really good, overall build quality is solid and ride and handling balance is better than the rivals. But the XJ has been around for so long no that it feels a bit dated.</h3>
+    <br><br>
+    <h1 class="over"><u>Jaguar XJ OverView</u></h1>
+    <h3>Jaguar has launched the XJ50 in India, a special edition variant to celebrate 50 years of its flagship sedan, the XJ. Just like the XJ, the XJ50 can only be had as a long wheelbase option here in India. It is priced at Rs 1.11 crore (ex-showroom India).
+
+Jaguar XJ Price and Variants: The Jaguar XJ is available in three variants in India - Premium Luxury, Portfolio and the XJ50. Prices start at Rs 1.03 crore and and goes all the way up to Rs 1.11 crore. All prices are ex-showroom India.
+
+Jaguar XJ Engine and Transmission: All variants of the Jaguar XJ are powered by a 3.0-litre turbocharged diesel V6 that churns out 306PS of power and 689Nm of peak torque. Power is channeled to the rear wheels through an 8-speed automatic transmission.
+
+Jaguar XJ Features: The Jaguar XJ comes loaded with features, including 18-way adjustable front seats with ventilated heating, cooling and massage function, a park assist feature, a 360 degree view camera, adaptable LED headlamps, four-zone climate control, and more.
+
+Jaguar XJ Rivals: The Jaguar XJ rivals the likes of Audi A8L, BMW 7-Series and Mercedes-Benz S-Class in India.</h3>
+     <br><br>
+      <!--<h1 class="over"><u>Personal OverView</u></h1>
+    <h3><h2>ADVANTAGES</h2><ul>
+      <li>
+       Premium interior with great fit and finish quality.
+      </li>
+      <li>Long list of features – LED headlights and tail lights, dynamic turn indicators, Audi Multi-Media Interface, panoramic sunroof etc.
+</li><li>Both engines are fuel-efficient and offer adequate performance.
+</li><li>Classy, understated design and rock solid build quality. 
+</li></ul></h3>
+
+ <h3><h2>DIS-ADVANTAGES</h2><ul>
+      <li>
+      Cabin space, while better than its rival, the Mercedes CLA’s, is quite limited for the price.
+      </li>
+      <li>No paddle-shifters offered.
+
+</li><li>Dummy buttons on centre console and passenger doors look ungainly.
+
+</li></ul></h3>
+--><h2><u>Personal OverView</u></h2>
+<table align="center" border="3" width="70%" height="50%" bgcolor="#F0F8FF">
+  <tr valign="middle" align="center">
+    <td> <h3><h2>ADVANTAGES</h2><ul>
+  <li>Charming and unique road presence </li>
+<li>Ultra-luxurious cabin with lavish rear seat comfort</li>
+<li>Sporty driving dynamics</li>
+</ul></h3></td>
+    <td><h3><h2>DIS-ADVANTAGES</h2><ul>
+   <li>Is outdated especially compared to rivals</li>
+<li>Few interior plastics not up to mark </li>
+<li>It’s a heavy car and it shows</li>
+</ul></h3></td>
+  </tr>
+</table>
+<br><br><img class ="imp" src="xj_2.webp"><br><br>
+<h2><u>Variants</u></h2>
+<table align="center" border="3" width="70%" height="50%" bgcolor="#F0F8FF">
+  <tr valign="middle" align="center">
+    <td> <h3>VARIANT</h3> </td>
+    <td><h3>EX-SHOWROOM PRICE</h3></td>
+  </tr>
+
+  <tr valign="middle" align="center">
+    <td>      
+     <h3>3.0 Premium Luxury</h3>
+<h6>2993 cc, Diesel, Automatic, 12.9 kmpl</h6>
+     </td>
+     <td> 
+      	₹ 1.03 Crore
+     </td>
+   </tr>
+
+    <tr valign="middle" align="center">
+    <td>      
+     <h3>3.0 Portfolio</h3>
+<h6>2993 cc, Diesel, Automatic, 12.9 kmpl</h6>
+     </td>
+     <td> 
+        Rs.1.25 Cr*
+     </td>
+   </tr>
+
+    <tr valign="middle" align="center">
+    <td>      
+     <h3>5.0 V8 Autobiography</h3>
+<h6>5000 cc, Petrol, Automatic</h6>
+     </td>
+     <td> 
+        Rs.1.97 Cr*
+     </td>
+   </tr>
+
+</table>
+<br><br>
+<h3>For More Details ....<a href="https://www.carwale.com/jaguar-cars/f-type/"><h5>CLICK HERE</h5></a></h3>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+</body>
+
+</html>
