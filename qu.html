@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    
+    <title>Hemant & Hemant</title><!--background position=(horizontal, vertical) -->
+ <script>
+
+ </script>
+
+
+ <style>
+body {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('m.jpg');
+    background-position: -2100px -200px;
+}
+
+.heading {
+	text-align: center;
+  position: left;
+}
+
+/* Dropdown Button */
+.pos{
+	text-align: left;
+  position: left;
+}
+
+
+.dropbtn {
+  background-color: #000000;
+  color: white;
+  padding: 17px;
+  font-size: 16px;
+  border: none;
+  object-position: center;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #FF0000; color: #000000}
+
+.aq{
+  text-align: left;
+}
+
+.over{
+  text-align: left;
+}
+.imp{
+  width: 100%;
+}
+
+.a4{
+	 width: 100%;
+}
+
+
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+ </style>
+ 
+ </head>   
+
+<body>
+    
+<div class="pos"><div class="dropdown">
+  <a href="maserati.html"><button class="dropbtn">Back</button></a>
+  </div></div>
+<div class="heading"><h1>Maserati Quattroporte </h1></div>
+<br><br><br><br>
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 5</div>
+  <img src="C:\Users\hp\Desktop\ty\qu_1.jpg" style="width:100%">
+  <div class="text">Caption Text</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 5</div>
+  <img src="C:\Users\hp\Desktop\ty\qu_2.jpg" style="width:100%">
+  <div class="text">Caption Two</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 5</div>
+  <img src="C:\Users\hp\Desktop\ty\qu-1.jpg" style="width:100%">
+  <div class="text">Caption Three</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">4 / 5</div>
+  <img src="C:\Users\hp\Desktop\ty\qu-2.jpg" style="width:100%">
+  <div class="text">Caption Four</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">5 / 5</div>
+  <img src="C:\Users\hp\Desktop\ty\qu-3.jpg" style="width:100%">
+  <div class="text">Caption Five</div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+  <span class="dot" onclick="currentSlide(4)"></span> 
+  <span class="dot" onclick="currentSlide(5)"></span> 
+</div>
+<table align="center" border="3" width="70%" height="50%" bgcolor="#F0F8FF">
+  <tr valign="middle" align="center">
+    <td><h3>Petrol & Diesel<br><h6>Fuel Type</h6></h3></td>
+    <td><h3>11.76 Kmpl<br><h6>Mileage</h6></h3></td>
+    <td><h3>2979 to 2987 CC<br><h6>Engine CC</h6></h3></td>
+    <td><h3>Automatic<br><h6>Tansmission</h6></h3></td>
+    <td><h3>530 bhp<br><h6>Power</h6></h3></td>
+    <td><h3>650 NM<br><h6>Torque</h6></h3></td>
+  </tr>
+</table>
+    <br><h1 class="aq"><u>About Maserati Quattroporte </u></h1>
+    <h3>Maserati is now offering the Quattroporte with a 3.0-litre, twin-turbo petrol V6 engine that puts out 430PS of power and 580Nm of torque. The Quattroporte GTS still remains the most powerful variant, powered by a 3.6-litre twin-turbo V8 petrol unit that produces 530PS and 710Nm. It gets an 8.4-inch touchscreen infotainment system with Android Auto and Apple CarPlay, voice control, and WiFi connectivity. In India, the Maserati Quattroporte GTS locks horns with the Aston Martin Rapide, Porsche Panamera and the Bentley Flying Spur.</h3>
+    <br><br>
+    <h1 class="over"><u>Maserati Quattroporte OverView</u></h1>
+    <h3>The Maserati Quattroporte is a big and stylish Ferrari-powered sedan which offers a combination of Italian styling and engaging performance. However, it has been around for a long time now and is in dire need for an update, especially since the competition has moved ages ahead.</h3>
+     <br><br>
+      <!--<h1 class="over"><u>Personal OverView</u></h1>
+    <h3><h2>ADVANTAGES</h2><ul>
+      <li>
+       Premium interior with great fit and finish quality.
+      </li>
+      <li>Long list of features – LED headlights and tail lights, dynamic turn indicators, Audi Multi-Media Interface, panoramic sunroof etc.
+</li><li>Both engines are fuel-efficient and offer adequate performance.
+</li><li>Classy, understated design and rock solid build quality. 
+</li></ul></h3>
+
+ <h3><h2>DIS-ADVANTAGES</h2><ul>
+      <li>
+      Cabin space, while better than its rival, the Mercedes CLA’s, is quite limited for the price.
+      </li>
+      <li>No paddle-shifters offered.
+
+</li><li>Dummy buttons on centre console and passenger doors look ungainly.
+
+</li></ul></h3>
+--><h2><u>Personal OverView</u></h2>
+<table align="center" border="3" width="70%" height="50%" bgcolor="#F0F8FF">
+  <tr valign="middle" align="center">
+    <td> <h3><h2>ADVANTAGES</h2><ul>
+   <li>Maserati flagship sedan is powered by Ferrari’s engine</li>
+<li>Exotic sedan with sportscar-like soundtrack </li>
+<li>Can double up as a GT thanks to luxurious cabin</li>
+</ul></h3></td>
+    <td><h3><h2>DIS-ADVANTAGES</h2><ul>
+   <li>Cabin looks dated and lacks modern features</li>
+<li>Better and modern alternatives available in the segment</li>
+<li>Expensive to maintain</li>
+</ul></h3></td>
+  </tr>
+</table>
+<br><br><img class ="imp" src="qu_2.jpg"><br><br>
+<h2><u>Variants</u></h2>
+<table align="center" border="3" width="70%" height="50%" bgcolor="#F0F8FF">
+  <tr valign="middle" align="center">
+    <td> <h3>VARIANT</h3> </td>
+    <td><h3>EX-SHOWROOM PRICE</h3></td>
+  </tr>
+
+  <tr valign="middle" align="center">
+    <td>      
+     <h3>Quattroporte Standard</h3>
+<h6>2979 cc, Petrol, Automatic</h6>
+     </td>
+     <td> 
+      	₹ 1.64 Crore
+     </td>
+   </tr>
+
+
+  <tr valign="middle" align="center">
+    <td>      
+     <h3>Quattroporte Base</h3>
+<h6>2987 cc, Diesel, Automatic</h6>
+     </td>
+     <td> 
+        ₹ 1.71 Crore
+     </td>
+   </tr>
+
+
+  <tr valign="middle" align="center">
+    <td>      
+     <h3>Quattroporte S</h3>
+<h6>2979 cc, Petrol, Automatic</h6>
+     </td>
+     <td> 
+        ₹ 1.73 Crore
+     </td>
+   </tr>
+
+</table>
+<br><br>
+<h3>For More Details ....<a href="https://www.carwale.com/maserati-cars/quattroporte/"><h5>CLICK HERE</h5></a></h3>
+
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+</body>
+
+</html>

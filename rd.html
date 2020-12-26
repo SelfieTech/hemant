@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    
+    <title>Hemant & Hemant</title><!--background position=(horizontal, vertical) -->
+ <script>
+
+ </script>
+
+
+ <style>
+
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+body {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('h.jpg');
+    background-position: -2100px -200px;
+}
+
+.heading {
+	text-align: center;
+  position: left;
+}
+
+/* Dropdown Button */
+.pos{
+	text-align: left;
+  position: left;
+}
+
+
+.dropbtn {
+  background-color: #000000;
+  color: white;
+  padding: 17px;
+  font-size: 16px;
+  border: none;
+  object-position: center;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #FF0000; color: #000000}
+
+.aq{
+  text-align: left;
+}
+
+.over{
+  text-align: left;
+}
+.imp{
+  width: 100%;
+}
+
+.a4{
+	 width: 100%;
+}
+ </style>
+ 
+ </head>   
+
+<body>
+    
+<div class="pos"><div class="dropdown">
+  <a href="honda.html"><button class="dropbtn">Back</button></a>
+  </div></div>
+<div class="heading"><h1>Honda Accord</h1></div>
+<br><br><br><br>
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 5</div>
+  <img src="C:\Users\hp\Desktop\ty\rd_1.png" style="width:100%">
+  <div class="text">Caption Text</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 5</div>
+  <img src="C:\Users\hp\Desktop\ty\rd_2.jpg" style="width:100%">
+  <div class="text">Caption Two</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 5</div>
+  <img src="C:\Users\hp\Desktop\ty\a-1.jpg" style="width:100%">
+  <div class="text">Caption Three</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">4 / 5</div>
+  <img src="C:\Users\hp\Desktop\ty\a-2.jpg" style="width:100%">
+  <div class="text">Caption Four</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">5 / 5</div>
+  <img src="C:\Users\hp\Desktop\ty\a-3.jpg" style="width:100%">
+  <div class="text">Caption Five</div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+  <span class="dot" onclick="currentSlide(4)"></span> 
+  <span class="dot" onclick="currentSlide(5)"></span> 
+</div>
+<table align="center" border="3" width="70%" height="50%" bgcolor="#F0F8FF">
+  <tr valign="middle" align="center">
+    <td><h3>Petrol <br><h6>Fuel Type</h6></h3></td>
+    <td><h3>23.1 Kmpl<br><h6>Mileage</h6></h3></td>
+    <td><h3>1993 CC<br><h6>Engine CC</h6></h3></td>
+    <td><h3>Automatic<br><h6>Tansmission</h6></h3></td>
+    <td><h3>212 bhp<br><h6>Power</h6></h3></td>
+    <td><h3>315 NM<br><h6>Torque</h6></h3></td>
+  </tr>
+</table>
+    <br><h1 class="aq"><u>About Honda Accord</u></h1>
+    <h3>Honda Accord Price: Honda Accord price starts at ₹ 44.28 Lakh. The price of Hybrid (Electric + Petrol) variant for Accord is ₹ 44.28 Lakh.
+Honda Accord Versions: Accord is available in 1 variants. All the variants are Automatic (CVT).
+Honda Accord Colours: Accord is offered in 4 colours: White Orchid Pearl, Crystal Black Pearl, Modern Steel Metallic and Lunar Silver Metallic. However, some of these colours are available in specific versions.
+Honda Accord Competitors: Accord is competing against Toyota Camry, BMW 3 Series, BMW 3 Series GT, Mercedes-Benz C-Class, Skoda Octavia, Skoda Superb, Jaguar XE, Jaguar XF and Lexus ES.
+</h3>
+    <br><br>
+    <h1 class="over"><u>Honda Accord OverView</u></h1>
+    <h3>Honda Accord Hybrid is the top model in the Accord lineup and the price of Accord top model is ₹ 44.28 Lakh. This Hybrid variant comes with an engine putting out 212 bhp @ 6200 rpm and 315 Nm of max power and max torque respectively. Honda Accord Hybrid is available in transmission and offered in 4 colours: Crystal Black Pearl, Modern Steel Metallic, Lunar Silver Metallic and White Orchid Pearl.</h3>
+     <br><br>
+      <!--<h1 class="over"><u>Personal OverView</u></h1>
+    <h3><h2>ADVANTAGES</h2><ul>
+      <li>
+       Premium interior with great fit and finish quality.
+      </li>
+      <li>Long list of features – LED headlights and tail lights, dynamic turn indicators, Audi Multi-Media Interface, panoramic sunroof etc.
+</li><li>Both engines are fuel-efficient and offer adequate performance.
+</li><li>Classy, understated design and rock solid build quality. 
+</li></ul></h3>
+
+ <h3><h2>DIS-ADVANTAGES</h2><ul>
+      <li>
+      Cabin space, while better than its rival, the Mercedes CLA’s, is quite limited for the price.
+      </li>
+      <li>No paddle-shifters offered.
+
+</li><li>Dummy buttons on centre console and passenger doors look ungainly.
+
+</li></ul></h3>
+--><h2><u>Personal OverView</u></h2>
+<table align="center" border="3" width="70%" height="50%" bgcolor="#F0F8FF">
+  <tr valign="middle" align="center">
+    <td> <h3><h2>ADVANTAGES</h2><ul>
+      <li>
+       Build QUALITY
+      </li>
+      <li>Comfortable cabin</li><li>Feature loaded
+</li>
+</ul></h3></td>
+    <td><h3><h2>DIS-ADVANTAGES</h2><ul>
+      <li>
+     Expensive
+      </li>
+      <li>Bouncy high-speed ride
+
+</li><li>Inadequate rear heahroom for tall occupants
+
+</li></ul></h3></td>
+  </tr>
+</table>
+<br><br><img class ="imp" src="rd_2.jpg"><br><br>
+<h2><u>Variants</u></h2>
+<table align="center" border="3" width="70%" height="50%" bgcolor="#F0F8FF">
+  <tr valign="middle" align="center">
+    <td> <h3>VARIANT</h3> </td>
+    <td><h3>EX-SHOWROOM PRICE</h3></td>
+  </tr>
+
+  <tr valign="middle" align="center">
+    <td>      
+     <h3> Hybrid</h3>
+<h6>1993 cc, 4 Cylinders Inline, 4 Valves/Cylinder, DOHC</h6>
+     </td>
+     <td> 
+      	₹ 44.45 Lakh
+     </td>
+   </tr>
+
+  </table>
+<br><br>
+<h3>For More Details ....<a href="https://www.carwale.com/honda-cars/accord/hybrid/"><h5>CLICK HERE</h5></a></h3>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+</body>
+
+</html>
