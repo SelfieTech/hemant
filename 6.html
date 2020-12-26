@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    
+    <title>Hemant & Hemant</title><!--background position=(horizontal, vertical) -->
+ <script>
+
+ </script>
+
+
+ <style>
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+body {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('b.jpg');
+    background-position: -2100px -200px;
+}
+
+.heading {
+	text-align: center;
+  position: left;
+}
+
+/* Dropdown Button */
+.pos{
+	text-align: left;
+  position: left;
+}
+
+
+.dropbtn {
+  background-color: #000000;
+  color: white;
+  padding: 17px;
+  font-size: 16px;
+  border: none;
+  object-position: center;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #FF0000; color: #000000}
+
+.aq{
+  text-align: left;
+}
+
+.over{
+  text-align: left;
+}
+.imp{
+  width: 100%;
+}
+
+.a4{
+	 width: 100%;
+}
+ </style>
+ 
+ </head>   
+
+<body>
+    
+<div class="pos"><div class="dropdown">
+  <a href="bmw.html"><button class="dropbtn">Back</button></a>
+  </div></div>
+<div class="heading"><h1>BMW 6-Series</h1></div>
+<br><br><br><br>
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 5</div>
+  <img src="C:\Users\hp\Desktop\ty\6_1.jpg" style="width:100%">
+  <div class="text">Caption Text</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 5</div>
+  <img src="C:\Users\hp\Desktop\ty\6_2.jpg" style="width:100%">
+  <div class="text">Caption Two</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 5</div>
+  <img src="C:\Users\hp\Desktop\ty\6--1.jpg" style="width:100%">
+  <div class="text">Caption Three</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">4 / 5</div>
+  <img src="C:\Users\hp\Desktop\ty\6--2.jpg" style="width:100%">
+  <div class="text">Caption Four</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">5 / 5</div>
+  <img src="C:\Users\hp\Desktop\ty\6--3.jpg" style="width:100%">
+  <div class="text">Caption Five</div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+  <span class="dot" onclick="currentSlide(4)"></span> 
+  <span class="dot" onclick="currentSlide(5)"></span> 
+</div>
+<table align="center" border="3" width="70%" height="50%" bgcolor="#F0F8FF">
+  <tr valign="middle" align="center">
+    <td><h3>Petrol / Diesel<br><h6>Fuel Type</h6></h3></td>
+    <td><h3>13.32 to 18.6 kmpl<br><h6>Mileage</h6></h3></td>
+    <td><h3>1995 to 2993 CC<br><h6>Engine CC</h6></h3></td>
+    <td><h3>Automatic<br><h6>Tansmission</h6></h3></td>
+    <td><h3>261.49 bhp<br><h6>Power</h6></h3></td>
+    <td><h3>620 Nm<br><h6>Torque</h6></h3></td>
+  </tr>
+</table>
+    <br><h1 class="aq"><u>About BMW 6-Series</u></h1>
+    <h3>BMW 6 Series GT price starts at ₹ 65.87 Lakh and goes upto ₹ 76.96 Lakh. The price of Petrol version for 6 Series GT is ₹ 65.87 Lakh and the price of Diesel version for 6 Series GT ranges between ₹ 66.47 Lakh - ₹ 76.96 Lakh.
+
+</h3>
+    <br><br>
+    <h1 class="over"><u>BMW 6-Series OverView</u></h1>
+    <h3>The 6 Series GT is now available in the new 620d Luxury Line variant at a price tag of Rs 63.90 lakh (ex-showroom, pan-India). Read details here.
+
+BMW offers a diesel engine option (3.0-litre V6 265PS/260Nm), starting at Rs 68.90 lakh (ex-showroom India), with the 6-Series GT. The BMW 6-Series GT was launched at the 2018 Indian Auto Expo with a petrol engine (2.0-litre 258PS/400Nm), now priced at Rs 63.9 lakh (ex-showroom India).
+
+BMW has also introduced a new premium variant of the 6-Series petrol. The BMW 6-Series GT was the first one from the Bavarian manufacturer to feature a BSVI-compliant engine in the country. The BMW 6-Series Gran Turismo gets an ‘Active’ kidney grille flanked by double-barrel adaptive LED cornering headlamps. Move over to the side and you’ll find a drooping roofline along with swooping lines across the car. The rear features wraparound LED tail lamps and dual exhausts as well. Sharing a lot of design cues with the 5-Series, the 6GT is equipped with a heads-up display, panoramic sunroof, BMW display key and multiple driving modes, including Comfort+, Adaptive, Eco Pro and Sport mode.</h3>
+     <br><br>
+      <!--<h1 class="over"><u>Personal OverView</u></h1>
+    <h3><h2>ADVANTAGES</h2><ul>
+      <li>
+       Premium interior with great fit and finish quality.
+      </li>
+      <li>Long list of features – LED headlights and tail lights, dynamic turn indicators, Audi Multi-Media Interface, panoramic sunroof etc.
+</li><li>Both engines are fuel-efficient and offer adequate performance.
+</li><li>Classy, understated design and rock solid build quality. 
+</li></ul></h3>
+
+ <h3><h2>DIS-ADVANTAGES</h2><ul>
+      <li>
+      Cabin space, while better than its rival, the Mercedes CLA’s, is quite limited for the price.
+      </li>
+      <li>No paddle-shifters offered.
+
+</li><li>Dummy buttons on centre console and passenger doors look ungainly.
+
+</li></ul></h3>
+--><h2><u>Personal OverView</u></h2>
+<table align="center" border="3" width="70%" height="50%" bgcolor="#F0F8FF">
+  <tr valign="middle" align="center">
+    <td> <h3><h2>ADVANTAGES</h2><ul>
+      <li>Spacious and comfortable cabin
+      </li>
+      <li>Adequate boot space for long drives
+</li><li>Comfortable ride quality</li>
+</ul></h3></td>
+    <td><h3><h2>DIS-ADVANTAGES</h2><ul>
+      <li>Low ground clearance
+      </li>
+      <li>Odd rear design
+</li>
+<li>Petrol model could do with more power</li>
+</ul></h3></td>
+  </tr>
+</table>
+<br><br><img class ="imp" src="6_2.jpg"><br><br>
+<h2><u>Variants</u></h2>
+<table align="center" border="3" width="70%" height="50%" bgcolor="#F0F8FF">
+  <tr valign="middle" align="center">
+    <td> <h3>VARIANT</h3> </td>
+    <td><h3>EX-SHOWROOM PRICE</h3></td>
+  </tr>
+
+  <tr valign="middle" align="center">
+    <td>      
+     <h3> 
+GT 630i Luxury Line
+</h3>
+<h6>
+1998 cc, Automatic, Petrol, 14.28 kmpl </h6>
+     </td>
+     <td> 
+      	 Rs.65.90 Lakh*
+     </td>
+   </tr>
+
+   <tr valign="middle" align="center">
+    <td>      
+     <h3>GT 620d Luxury Line</h3>
+<h6>1995 cc, Automatic, Diesel, 17.09 kmpl
+</h6>
+     </td>
+     <td> 
+       Rs.66.50 Lakh*
+     </td>
+   </tr>
+
+
+   <tr valign="middle" align="center">
+    <td>      
+     <h3>GT 630d M Sport</h3>
+<h6>2993 cc, Automatic, Diesel, 17.09 kmpl</h6>
+     </td>
+     <td> 
+        Rs.77.00 Lakh*
+     </td>
+   </tr>
+</table>
+<br><br>
+<h3>For More Details ....<a href="https://www.carwale.com/bmw-cars/6-series-gt/"><h5>CLICK HERE</h5></a></h3>
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+</body>
+
+</html>
