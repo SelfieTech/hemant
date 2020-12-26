@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    
+    <title>Hemant & Hemant</title><!--background position=(horizontal, vertical) -->
+ 
+
+ <style>
+
+
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+
+
+
+
+
+body {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('a.jpg');
+    background-position: -2100px -200px;
+}
+
+.heading {
+	text-align: center;
+  position: left;
+}
+
+/* Dropdown Button */
+.pos{
+	text-align: left;
+  position: left;
+}
+
+
+.dropbtn {
+  background-color: #000000;
+  color: white;
+  padding: 17px;
+  font-size: 16px;
+  border: none;
+  object-position: center;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #FF0000; color: #000000}
+
+.aq{
+  text-align: left;
+}
+
+.over{
+  text-align: left;
+}
+.imp{
+  width: 100%;
+}
+.a4{
+   width: 100%;
+}
+
+ </style>
+ 
+ </head>   
+
+<body>
+    
+<div class="pos"><div class="dropdown">
+  <a href="Audi.html"><button class="dropbtn">Back</button></a>
+  </div></div>
+<div class="heading"><h1>AUDI A8</h1></div>
+<br><br><br><br>
+
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 5</div>
+  <img src="C:\Users\hp\Desktop\ty\a8_1.jpg" style="width:100%">
+  <div class="text">Caption Text</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 5</div>
+  <img src="C:\Users\hp\Desktop\ty\a8_2.jpg" style="width:100%">
+  <div class="text">Caption Two</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 5</div>
+  <img src="C:\Users\hp\Desktop\ty\a8__1.jpg" style="width:100%">
+  <div class="text">Caption Three</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">4 / 5</div>
+  <img src="C:\Users\hp\Desktop\ty\a8__2.jpg" style="width:100%">
+  <div class="text">Caption Four</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">5 / 5</div>
+  <img src="C:\Users\hp\Desktop\ty\a8__3.jpg" style="width:100%">
+  <div class="text">Caption Five</div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+  <span class="dot" onclick="currentSlide(4)"></span> 
+  <span class="dot" onclick="currentSlide(5)"></span> 
+</div>
+
+
+
+<table align="center" border="3" width="70%" height="50%" bgcolor="#F0F8FF">
+  <tr valign="middle" align="center">
+    <td><h3>Petrol / Diesel <br><h6>Fuel Type</h6></h3></td>
+    <td><h3>11.7 Kmpl<br><h6>Mileage</h6></h3></td>
+    <td><h3>2995 CC<br><h6>Engine CC</h6></h3></td>
+    <td><h3>Automatic (BS-VI)<br><h6>Tansmission</h6></h3></td>
+    <td><h3>335.2 bhp<br><h6>Power</h6></h3></td>
+    <td><h3>500 Nm<br><h6>Torque</h6></h3></td>
+  </tr>
+</table>
+    <br><h1 class="aq"><u>About Audi-A8</u></h1>
+    <h3>Audi has confirmed that it will launch the fourth-gen A8 in India this year. Like its predecessor, the new A8 will only be available in its long wheelbase (LWB) configuration. The new A8, which made its debut in July 2017, is based on the new MLB Evo platform that uses aluminium, steel, magnesium and carbon-fibre in its construction. This makes the new sedan much lighter than its predecessor. Since it is a generation update, the new A8 gets a thoroughly updated exterior. The interior gets a similar treatment as well. It gets three screens inside the cabin - a 10.1-inch touchscreen on the dashboard, a second 8.6-inch touchscreen display on the centre console through which the air conditioning and comfort functions can be controlled, and an all-digital instrument cluster.
+
+Under the bonnet, the India-spec Audi A8L is likely to be offered with a choice of 3.0-litre turbocharged V6 engines. The 3.0-litre TDI diesel engine produces 286PS of power, while the 3.0-litre TFSI petrol unit develops 340PS. One of these derivatives could also receive mild-hybrid capabilities.
+
+When launched, the new A8 will go up against the BMW 7 Series, Mercedes-Benz S-Class and the Lexus LS 500h.
+
+</h3>
+    <br><br>
+    <h1 class="over"><u>Audi-A8 OverView</u></h1>
+    <h3>The Audi A8 has 1 Petrol Engine on offer. The Petrol engine is 2995 cc . It is available with the Automatic transmission. Depending upon the variant and fuel type the A8 has a mileage of 11.7 kmpl. The A8 is a 5 seater sedan and has length of 5302mm, width of 1945mm and a wheelbase of 3127mm.</h3>
+     <br><br>
+      <!--<h1 class="over"><u>Personal OverView</u></h1>
+    <h3><h2>ADVANTAGES</h2><ul>
+      <li>
+       Premium interior with great fit and finish quality.
+      </li>
+      <li>Long list of features – LED headlights and tail lights, dynamic turn indicators, Audi Multi-Media Interface, panoramic sunroof etc.
+</li><li>Both engines are fuel-efficient and offer adequate performance.
+</li><li>Classy, understated design and rock solid build quality. 
+</li></ul></h3>
+
+ <h3><h2>DIS-ADVANTAGES</h2><ul>
+      <li>
+      Cabin space, while better than its rival, the Mercedes CLA’s, is quite limited for the price.
+      </li>
+      <li>No paddle-shifters offered.
+
+</li><li>Dummy buttons on centre console and passenger doors look ungainly.
+
+</li></ul></h3>
+--><h2><u>Personal OverView</u></h2>
+<table align="center" border="3" width="70%" height="50%" bgcolor="#F0F8FF">
+  <tr valign="middle" align="center">
+    <td> <h3><h2>ADVANTAGES</h2><ul>
+      <li>
+     Gorgeous interior
+      </li>
+      <li>Handsome sheetmetal
+</li><li>Highly Advanced Safety Technologies
+</li><li>LuxuriousCar with great Features
+</li></ul></h3></td>
+    <td><h3><h2>DIS-ADVANTAGES</h2><ul>
+      <li>
+   Quite Expensive from Competitors
+      </li>
+      <li>Parking this vehicle will be a tough Task
+</li><li>Carlike qualities
+
+</li></ul></h3></td>
+  </tr>
+</table>
+<br><br><img class ="imp" src="a8_1.jpg"><br><br>
+<h2><u>Variants</u></h2>
+<table align="center" border="3" width="70%" height="50%" bgcolor="#F0F8FF">
+  <tr valign="middle" align="center">
+    <td> <h3>VARIANT</h3> </td>
+    <td><h3>EX-SHOWROOM PRICE</h3></td>
+  </tr>
+
+  <tr valign="middle" align="center">
+    <td>      
+     <h3> 
+55 TFSI</h3>
+<h6>2995 cc, Automatic, Petrol, 11.7 kmpl</h6>
+     </td>
+     <td> 
+      	Rs.1.56 Cr*
+     </td>
+   </tr>
+</table>
+<br><br>
+<h3>For More Details ....<a href="https://www.carandbike.com/audi-cars/a8"><h5>CLICK HERE</h5></a></h3>
+
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+</body>
+
+</html>
